@@ -29,8 +29,8 @@ class ChatApplication:
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
         
-        window_width = 590
-        window_height = 650
+        window_width = 1360
+        window_height = 720
         screen_width = self.window.winfo_screenwidth()
         screen_height = self.window.winfo_screenheight()
         position_x = int((screen_width - window_width) / 2)
@@ -54,7 +54,7 @@ class ChatApplication:
         
          # msg Color
         self.text_widget.tag_configure("user", foreground=WHITE_COLOR, justify='right', lmargin1=15, lmargin2=15)
-        self.text_widget.tag_configure("bot", foreground=YELLOW_COLOR, justify='left', lmargin1=22, lmargin2=22)
+        self.text_widget.tag_configure("bot", foreground=YELLOW_COLOR, justify='left', lmargin1=50, lmargin2=50)
 
         # Insert welcome message
         self.text_widget.configure(state=NORMAL)
@@ -66,7 +66,7 @@ class ChatApplication:
         # scrollbar.place(relheight=1, rely=0.08,relx=0.974)
         # scrollbar.configure(command=self.text_widget.yview)
         scrollbar = Scrollbar(self.window, command=self.text_widget.yview)
-        scrollbar.place(relheight=0.745, relx=0.01, rely=0.08, relwidth=0.04)
+        scrollbar.place(relheight=0.745, relx=0.01, rely=0.08, relwidth=0.02)
         scrollbar.configure(command=self.text_widget.yview)
         # bottom label
         bottom_label = Label(self.window, bg=BG_GRAY, height=80)
