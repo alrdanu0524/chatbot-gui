@@ -1,0 +1,266 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Greetings",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hey there! How can I help you today?",
+        "Hi! How can I assist you?",
+        "Good day! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "account_opening",
+      "patterns": [
+        "How do I open a bank account?",
+        "What is the process to open a new account?",
+        "Steps to open a savings account",
+        "How can I open a checking account?"
+      ],
+      "responses": [
+        "To open a bank account, you need to provide a valid ID, proof of address, and complete an application form.",
+        "Visit your nearest branch with necessary documents to open a new account.",
+        "You can also open an account online through our website by filling out the application form."
+      ]
+    },
+    {
+      "tag": "documents_required",
+      "patterns": [
+        "What documents are required to open a bank account?",
+        "Documents needed for a new account",
+        "What do I need to bring to open an account?",
+        "ID and documents for account opening"
+      ],
+      "responses": [
+        "You need to provide a valid ID (like a passport or driver's license), proof of address (like a utility bill), and a passport-sized photo.",
+        "Required documents include a government-issued ID, proof of address, and a recent photograph.",
+        "You need identification proof, address proof, and a photograph to open an account."
+      ]
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": [
+        "What is the minimum balance for a savings account?",
+        "Minimum balance requirement",
+        "How much do I need to keep in my account?",
+        "Is there a minimum balance requirement?"
+      ],
+      "responses": [
+        "The minimum balance requirement for a savings account is $500.",
+        "You need to maintain a minimum balance of Rs.5,00.00 in your savings account.",
+        "The required minimum balance is Rs.5,000.00 for a standard savings account."
+      ]
+    },
+    {
+      "tag": "fees_charges",
+      "patterns": [
+        "Are there any fees for opening an account?",
+        "Account opening charges",
+        "What are the charges for maintaining an account?",
+        "Are there any hidden fees?"
+      ],
+      "responses": [
+        "There are no fees for opening a standard account, but some premium accounts may have associated fees.",
+        "Account maintenance fees vary depending on the type of account. Please check our website for detailed information.",
+        "There are no hidden fees, but some services like overdraft protection may incur charges."
+      ]
+    },
+    {
+      "tag": "online_banking",
+      "patterns": [
+        "How do I set up online banking?",
+        "Steps to activate online banking",
+        "Can I manage my account online?",
+        "Online banking registration process"
+      ],
+      "responses": [
+        "To set up online banking, visit our website and click on 'Register'. Follow the instructions to create your online account.",
+        "You can manage your account online by registering on our online banking portal.",
+        "Activate online banking by registering on our website using your account number and personal details."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Goodbye! If you have any more questions, feel free to ask.",
+        "Have a good day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "asdfg",
+        "xyz123",
+        "random text"
+      ],
+      "responses": [
+        "Sorry, I didn't understand that.",
+        "Can you please rephrase?",
+        "I'm not sure I understand."
+      ]
+    },
+    {
+      "tag": "branch_location",
+      "patterns": [
+        "Where is the nearest branch?",
+        "Find a branch near me",
+        "Branch locations",
+        "Where can I find your branches?"
+      ],
+      "responses": [
+        "You can find the nearest branch using our branch locator on the website.",
+        "Our branches are located at various places. Please visit our website to find the nearest one.",
+        "Use our online branch locator tool to find the branch closest to you."
+      ]
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "Where is the nearest ATM?",
+        "Find an ATM near me",
+        "ATM locations",
+        "Where can I find your ATMs?"
+      ],
+      "responses": [
+        "You can find the nearest ATM using our ATM locator on the website.",
+        "Our ATMs are located at various places. Please visit our website to find the nearest one.",
+        "Use our online ATM locator tool to find the ATM closest to you."
+      ]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": [
+        "How do I check my account balance?",
+        "Account balance inquiry",
+        "Steps to check account balance",
+        "Check my balance"
+      ],
+      "responses": [
+        "You can check your account balance through online banking, our mobile app, or by visiting any of our ATMs.",
+        "Log in to your online banking account or use our mobile app to check your balance.",
+        "Visit any of our ATMs to check your account balance."
+      ]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "How can I apply for a credit card?",
+        "Credit card application process",
+        "Steps to get a credit card",
+        "What are the requirements for a credit card?"
+      ],
+      "responses": [
+        "To apply for a credit card, visit our website and fill out the credit card application form or visit your nearest branch.",
+        "You can apply for a credit card online or at any of our branches. Make sure to have your financial documents ready.",
+        "Check our website for the detailed credit card application process and requirements."
+      ]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": [
+        "What are the current interest rates?",
+        "Interest rates on savings account",
+        "Loan interest rates",
+        "Current interest rates for deposits"
+      ],
+      "responses": [
+        "The current interest rates for savings accounts are available on our website.",
+        "Please visit our website to check the latest interest rates for loans and deposits.",
+        "Interest rates vary depending on the type of account or loan. Visit our website for detailed information."
+      ]
+    },
+    {
+      "tag": "loan_inquiry",
+      "patterns": [
+        "How can I apply for a loan?",
+        "Loan application process",
+        "Steps to get a loan",
+        "What are the requirements for a loan?"
+      ],
+      "responses": [
+        "To apply for a loan, visit our website and fill out the loan application form or visit your nearest branch.",
+        "You can apply for a loan online or at any of our branches. Make sure to have your financial documents ready.",
+        "Check our website for the detailed loan application process and requirements."
+      ]
+    },
+    {
+      "tag": "account_closing",
+      "patterns": [
+        "How do I close my bank account?",
+        "What is the process to close an account?",
+        "Steps to close a savings account",
+        "How can I close my checking account?"
+      ],
+      "responses": [
+        "To close your bank account, please visit your nearest branch with a valid ID and fill out the account closure form.",
+        "You need to visit our branch with necessary documents to close your account.",
+        "Contact our customer service for detailed instructions on how to close your account."
+      ]
+    },
+    {
+      "tag": "foreign_exchange",
+      "patterns": [
+        "What is the current exchange rate?",
+        "Foreign exchange rates",
+        "Exchange rate for USD to EUR",
+        "Currency exchange rate"
+      ],
+      "responses": [
+        "You can check the current exchange rates on our website under the Foreign Exchange section.",
+        "Visit our website for the latest foreign exchange rates.",
+        "Exchange rates are updated daily on our website."
+      ]
+    },
+    {
+      "tag": "investment_options",
+      "patterns": [
+        "What investment options do you offer?",
+        "Investment services",
+        "How can I invest my money?",
+        "Tell me about your investment plans"
+      ],
+      "responses": [
+        "We offer a variety of investment options including mutual funds, fixed deposits, and retirement plans. Please visit our website for more details.",
+        "You can explore our investment services on our website or visit a branch to speak with an investment advisor.",
+        "Our investment options include mutual funds, fixed deposits, and more. Check our website for detailed information."
+      ]
+    }
+  ]
+}
